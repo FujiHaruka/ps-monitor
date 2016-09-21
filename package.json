@@ -1,0 +1,28 @@
+{
+  "name": "ps-monitor",
+  "version": "1.0.0",
+  "description": "プロセスを監視して落ちたら再起動したりメール送ったりする奴",
+  "bin": {
+    "ps-monitor": "node ps_monitor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FujiHaruka/ps-monitor.git"
+  },
+  "keywords": [
+    "process",
+    "monitor"
+  ],
+  "author": "FujiHaruka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/ps-monitor/issues"
+  },
+  "homepage": "https://github.com/FujiHaruka/ps-monitor#readme",
+  "dependencies": {
+    "nodemailer": "^2.6.0"
+  }
+}
